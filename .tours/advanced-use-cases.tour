@@ -56,7 +56,71 @@
     },
     {
       "title": "Instructions Workshop Complete!",
-      "description": "## 🎉 Congratulations!\n\nYou've successfully completed the Core Instructions workshop!\n\n**What you've accomplished:**\n- ✅ **Learned** what Copilot Instructions are and their benefits\n- ✅ **Created** a C# instructions file with proper structure\n- ✅ **Understood** how frontmatter and file patterns work\n- ✅ **Applied** instructions to your calculator project\n- ✅ **Tested** that your instructions work with Copilot\n\n**Your instructions now include:**\n- C# 13 feature usage\n- Documentation requirements\n- Error handling guidelines\n- Testing best practices\n\n**Next Steps:**\n- **Experiment** with different instruction styles\n- **Create** project-specific instruction files\n- **Share** instruction files with your team\n- **Explore** other templates in the awesome-copilot repository\n\n**Resources:**\n- [GitHub Copilot Documentation](https://docs.github.com/en/copilot)\n- [Awesome Copilot Repository](https://github.com/github/awesome-copilot)\n\nGreat job! 🚀"
+      "description": "## 🎉 Congratulations!\n\nYou've successfully completed the Core Instructions workshop!\n\n**What you've accomplished:**\n- ✅ **Learned** what Copilot Instructions are and their benefits\n- ✅ **Created** a C# instructions file with proper structure\n- ✅ **Understood** how frontmatter and file patterns work\n- ✅ **Applied** instructions to your calculator project\n- ✅ **Tested** that your instructions work with Copilot\n\n**Your instructions now include:**\n- C# 13 feature usage\n- Documentation requirements\n- Error handling guidelines\n- Testing best practices\n\n**Next:** Let's move on to Core Prompts! 🚀"
+    },
+    {
+      "file": "instructions/3. Core Prompt.md",
+      "title": "Welcome to Core Prompts!",
+      "description": "## Core Prompts Workshop 🎯\n\nIn this section you'll learn about GitHub Copilot Prompts - structured instructions that define how AI agents should behave.\n\n**What you'll learn:**\n- **Prompt Structure**: Components of effective prompts\n- **Mission & Directives**: Clear agent instructions\n- **Validation**: Testing prompt effectiveness\n- **Real Implementation**: See prompts in action\n\nLet's dive in!",
+      "line": 1
+    },
+    {
+      "file": "instructions/3. Core Prompt.md",
+      "title": "What are Copilot Prompts?",
+      "description": "## Understanding Copilot Prompts\n\nCopilot Prompts are markdown files with frontmatter that define AI agents with specific roles, missions, and behaviors.\n\n**Key Benefits:**\n- Create consistent AI assistants\n- Follow explicit instructions\n- Produce structured outputs\n- Reliable behavior patterns\n\nThey're different from Instructions - they create specialized agents for specific tasks!",
+      "line": 7
+    },
+    {
+      "file": "instructions/3. Core Prompt.md",
+      "title": "Understanding Prompt Structure",
+      "description": "## The Five Key Components\n\nA well-crafted Copilot Prompt includes:\n\n1. **Frontmatter** - YAML metadata (title, description, mode)\n2. **Mission** - Clear agent role and purpose\n3. **Directives** - Explicit, actionable instructions\n4. **User Preferences** - Configurable options\n5. **Execution** - Step-by-step guidance and examples\n\nThis structure ensures consistent, reliable AI behavior.",
+      "line": 12
+    },
+    {
+      "file": "instructions/3. Core Prompt.md",
+      "title": "Create Your First Prompt",
+      "description": "## EditorConfig Expert Example\n\nWe'll create an EditorConfig Expert prompt to demonstrate the complete structure.\n\n**This agent will:**\n- Analyze project structure\n- Generate comprehensive .editorconfig files\n- Integrate with build processes\n- Provide detailed explanations\n\nA perfect example of a specialized AI agent!",
+      "line": 20
+    },
+    {
+      "file": "instructions/3. Core Prompt.md",
+      "title": "Setup Prompts Directory",
+      "description": "## Directory Structure Setup\n\n**Action Required:** Follow these commands to create the prompts directory structure.\n\n**For this workshop:** Create the `.github/prompts` directory.\n\n📝 **Note:** This is where you'll store all your custom Copilot Prompts for organized agent management.",
+      "line": 29
+    },
+    {
+      "file": "instructions/3. Core Prompt.md",
+      "title": "Create the Prompt File",
+      "description": "## Hands-On Exercise! 🔧\n\n**Let's create your EditorConfig prompt:**\n\n1. Right-click in the `.github/prompts` folder\n2. Select \"New File\"\n3. Name it `editorconfig.prompt.md`\n\nThis will be your first AI agent definition!",
+      "line": 48
+    },
+    {
+      "file": "instructions/3. Core Prompt.md",
+      "title": "The Complete Prompt Template",
+      "description": "## Copy This Prompt Content\n\nThis is the complete EditorConfig Expert prompt template.\n\n**Key sections to notice:**\n- **Frontmatter**: Defines agent metadata and mode\n- **Mission**: Clear role as EditorConfig Expert\n- **Directives**: 7 specific, numbered instructions\n- **User Preferences**: Customizable indentation settings\n- **Execution**: Step-by-step process flow\n- **Examples**: Expected output formats\n\nCopy this entire template into your `editorconfig.prompt.md` file and save it.",
+      "line": 56
+    },
+    {
+      "file": "instructions/3. Core Prompt.md",
+      "title": "Validate Your Prompt",
+      "description": "## Testing Your Agent! ✅\n\n**Now let's test the prompt:**\n\n1. Type `/editorconfig` in Copilot Chat\n2. Submit the prompt command\n3. Review the output quality\n\n**What to look for:**\n- Complete .editorconfig file generation\n- Project file integration\n- Detailed rule explanations\n- Professional formatting",
+      "line": 174
+    },
+    {
+      "file": ".editorconfig",
+      "title": "See the Generated Result",
+      "description": "## The Prompt in Action! 🎯\n\nThis is the actual `.editorconfig` file that was generated using the EditorConfig Expert prompt!\n\n**Notice how it includes:**\n- Universal settings (all files)\n- C#-specific formatting rules\n- New line preferences\n- Style enforcement settings\n- Markdown exceptions\n\n**Amazing!** The prompt created a comprehensive, production-ready configuration following all best practices! 🎉",
+      "line": 1
+    },
+    {
+      "file": "dotnet-console/Calculator.Library/Calculator.Library.csproj",
+      "title": "Project Integration Works",
+      "description": "## Build Integration Success! 🔧\n\nThe prompt also updated project files with enforcement properties:\n\n- `EnforceCodeStyleInBuild`: Validates during build\n- `AnalysisLevel`: Uses latest analysis rules\n- `GenerateDocumentationFile`: Enables XML docs\n\nThis ensures the .editorconfig rules are enforced at build time, not just in the editor!",
+      "line": 8
+    },
+    {
+      "title": "Core Prompts Workshop Complete!",
+      "description": "## 🎉 Outstanding Work!\n\nYou've successfully completed the Core Prompts workshop!\n\n**What you've accomplished:**\n- ✅ **Learned** what Copilot Prompts are and their structure\n- ✅ **Created** an EditorConfig Expert agent with frontmatter\n- ✅ **Understood** Mission, Directives, and Execution components\n- ✅ **Built** a working prompt that generates real code\n- ✅ **Validated** that your prompt produces quality output\n- ✅ **Integrated** prompt results with build processes\n\n**Your prompt agent now:**\n- Analyzes project structure automatically\n- Generates comprehensive .editorconfig files\n- Integrates with MSBuild for enforcement\n- Provides detailed explanations for every rule\n\n**Next Steps:**\n- **Create prompts for other domains** (code review, testing, docs)\n- **Experiment with different directive styles**\n- **Share prompts with your team** for consistency\n- **Build a library of specialized agents**\n\n**Resources:**\n- [GitHub Copilot Documentation](https://docs.github.com/en/copilot)\n- [Prompt Engineering Best Practices](https://help.openai.com/en/articles/6654000-best-practices-for-prompt-engineering-with-openai-api)\n- [EditorConfig Documentation](https://editorconfig.org/)\n\nYou're now a Copilot Prompts expert! 🚀"
     }
   ],
   "ref": "main"

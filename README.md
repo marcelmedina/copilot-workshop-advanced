@@ -16,6 +16,8 @@ Welcome to the advanced GitHub Copilot workshop! This workshop focuses on advanc
 
 1. Follow the [Setup Instructions](instructions/1.%20Setup.md) to prepare your environment
 2. Learn about [Core Instructions](instructions/2.%20Core%20Instructions.md) to create Copilot Instructions for your project
+3. Explore [Core Prompts](instructions/3.%20Core%20Prompts.md) to build structured AI agents
+4. Master [Core ChatModes](instructions/4.%20Core%20ChatModes.md) for specialized planning assistance
 
 ## Workshop Content
 
@@ -30,6 +32,8 @@ After setting up your environment:
 ### Step-by-Step Instructions
 - **[1. Setup](instructions/1.%20Setup.md)**: Environment preparation and tool installation
 - **[2. Core Instructions](instructions/2.%20Core%20Instructions.md)**: Creating and using Copilot Instructions
+- **[3. Core Prompts](instructions/3.%20Core%20Prompts.md)**: Building structured Copilot prompts
+- **[4. Core ChatModes](instructions/4.%20Core%20ChatModes.md)**: Creating specialized chat modes for planning
 
 ## Repository Structure
 
@@ -39,7 +43,9 @@ After setting up your environment:
 ├── dotnet-console/         # Example .NET calculator project
 ├── instructions/           # Workshop setup and step-by-step guides
 │   ├── 1. Setup.md
-│   └── 2. Core Instructions.md
+│   ├── 2. Core Instructions.md
+│   ├── 3. Core Prompts.md
+│   └── 4. Core ChatModes.md
 └── README.md              # This file
 ```
 

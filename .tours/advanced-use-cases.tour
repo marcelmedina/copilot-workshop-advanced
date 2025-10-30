@@ -144,7 +144,7 @@
       "file": "instructions/4. Core ChatModes.md",
       "title": "Planning Mode Configuration",
       "description": "## Copy This Configuration\n\nThis is the complete Planning Mode configuration.\n\n**Key components:**\n- **Description**: Defines the chat mode purpose\n- **Tools**: Specifies available analysis tools (codebase, fetch, findTestFiles, etc.)\n- **Instructions**: Clear guidelines for generating implementation plans\n- **Output Format**: Structured sections (Overview, Requirements, Implementation Steps, Testing)\n\nCopy this entire configuration into your `planner.chatmode.md` file and save it.",
-      "line": 50
+      "line": 51
     },
     {
       "file": "instructions/4. Core ChatModes.md",

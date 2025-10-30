@@ -114,7 +114,71 @@
     },
     {
       "title": "Core Prompts Workshop Complete!",
-      "description": "## 🎉 Outstanding Work!\n\nYou've successfully completed the Core Prompts workshop!\n\n**What you've accomplished:**\n- ✅ **Learned** what Copilot Prompts are and their structure\n- ✅ **Created** an EditorConfig Expert agent with frontmatter\n- ✅ **Understood** Mission, Directives, and Execution components\n- ✅ **Built** a working prompt that generates real code\n- ✅ **Validated** that your prompt produces quality output\n- ✅ **Integrated** prompt results with build processes\n\n**Your prompt agent now:**\n- Analyzes project structure automatically\n- Generates comprehensive .editorconfig files\n- Integrates with MSBuild for enforcement\n- Provides detailed explanations for every rule\n\n**Next Steps:**\n- **Create prompts for other domains** (code review, testing, docs)\n- **Experiment with different directive styles**\n- **Share prompts with your team** for consistency\n- **Build a library of specialized agents**\n\n**Resources:**\n- [GitHub Copilot Documentation](https://docs.github.com/en/copilot)\n- [Prompt Engineering Best Practices](https://help.openai.com/en/articles/6654000-best-practices-for-prompt-engineering-with-openai-api)\n- [EditorConfig Documentation](https://editorconfig.org/)\n\nYou're now a Copilot Prompts expert! 🚀"
+      "description": "## 🎉 Outstanding Work!\n\nYou've successfully completed the Core Prompts workshop!\n\n**What you've accomplished:**\n- ✅ **Learned** what Copilot Prompts are and their structure\n- ✅ **Created** an EditorConfig Expert agent with frontmatter\n- ✅ **Understood** Mission, Directives, and Execution components\n- ✅ **Built** a working prompt that generates real code\n- ✅ **Validated** that your prompt produces quality output\n- ✅ **Integrated** prompt results with build processes\n\n**Your prompt agent now:**\n- Analyzes project structure automatically\n- Generates comprehensive .editorconfig files\n- Integrates with MSBuild for enforcement\n- Provides detailed explanations for every rule\n\n**Next:** Let's move on to Core ChatModes! 🚀"
+    },
+    {
+      "file": "instructions/4. Core ChatModes.md",
+      "title": "Welcome to ChatModes Workshop!",
+      "description": "## Core ChatModes Workshop 🤖\n\nIn this section you'll learn about GitHub Copilot ChatModes - specialized chat modes that provide focused assistance for specific development scenarios.\n\n**What you'll learn:**\n- **Planning Mode**: Create structured implementation plans\n- **Custom ChatModes**: Define specialized AI assistants\n- **Codebase Analysis**: Use advanced tools for project understanding\n- **Feature Planning**: Generate comprehensive development plans\n\nLet's start by creating your Planning Mode!",
+      "line": 1
+    },
+    {
+      "file": "instructions/4. Core ChatModes.md",
+      "title": "What is Planning Mode?",
+      "description": "## Understanding Planning Mode\n\nPlanning Mode is a specialized Copilot chat mode that focuses on generating implementation plans rather than writing code.\n\n**Key Features:**\n- Uses advanced tools to analyze your codebase\n- Understands dependencies and project structure\n- Creates structured plans with requirements, steps, and testing\n- Helps you think before coding\n\nIt's perfect for feature development and refactoring tasks!",
+      "line": 7
+    },
+    {
+      "file": "instructions/4. Core ChatModes.md",
+      "title": "Create ChatModes Directory",
+      "description": "## Setting Up ChatModes\n\n**Action Required:** Follow the commands shown here to create the ChatModes directory structure.\n\n**For this workshop:** Create the `.github/chatmodes` directory.\n\n📝 **Note:** This is where you'll store your custom chat mode definitions.",
+      "line": 15
+    },
+    {
+      "file": "instructions/4. Core ChatModes.md",
+      "title": "Create Planning Mode File",
+      "description": "## Hands-On Exercise! 🔧\n\n**Let's create your Planning Mode:**\n\n1. Right-click in the `.github/chatmodes` folder\n2. Select \"New File\"\n3. Name it `planner.chatmode.md`\n\nThis will be your custom planning assistant!",
+      "line": 35
+    },
+    {
+      "file": "instructions/4. Core ChatModes.md",
+      "title": "Planning Mode Configuration",
+      "description": "## Copy This Configuration\n\nThis is the complete Planning Mode configuration.\n\n**Key components:**\n- **Description**: Defines the chat mode purpose\n- **Tools**: Specifies available analysis tools (codebase, fetch, findTestFiles, etc.)\n- **Instructions**: Clear guidelines for generating implementation plans\n- **Output Format**: Structured sections (Overview, Requirements, Implementation Steps, Testing)\n\nCopy this entire configuration into your `planner.chatmode.md` file and save it.",
+      "line": 50
+    },
+    {
+      "file": "instructions/4. Core ChatModes.md",
+      "title": "Verify ChatMode Setup",
+      "description": "## Test Your ChatMode! ✅\n\n**Action Time:**\n\n1. **Open a new Chat Editor** to load your new chat mode\n2. **Select \"planner\"** from the available modes dropdown\n3. **Test with a simple planning request**\n\nYour custom Planning Mode is now ready to use!",
+      "line": 72
+    },
+    {
+      "file": "instructions/4. Core ChatModes.md",
+      "title": "Understanding Planning Tools",
+      "description": "## Specialized Analysis Tools\n\nPlanning Mode comes with powerful tools:\n\n- **`codebase`**: Analyzes entire project structure\n- **`fetch`**: Retrieves specific files and code\n- **`findTestFiles`**: Locates existing test patterns\n- **`githubRepo`**: Accesses repository information\n- **`search`**: Performs semantic code searches\n- **`usages`**: Finds class/method usage patterns\n\nThese tools enable deep codebase understanding for better planning!",
+      "line": 91
+    },
+    {
+      "file": "instructions/4. Core ChatModes.md",
+      "title": "Test Planning Mode - Calculator History",
+      "description": "## Real Planning Exercise! 🎯\n\n**Try this Planning Mode command:**\n\n```\nCreate an implementation plan for adding a calculation history feature to the Calculator class that stores the last 10 operations and their results.\n```\n\n**What Planning Mode will do:**\n1. **Analyze** the current Calculator class structure\n2. **Identify** integration points for history functionality\n3. **Generate** a comprehensive plan with:\n   - Data structures for storing history\n   - Methods for managing history\n   - Integration points with existing code\n   - Complete testing requirements\n\n**Amazing!** You get a full implementation roadmap without writing any code! 🎉",
+      "line": 124
+    },
+    {
+      "file": "dotnet-console/Calculator.Library/Calculator.cs",
+      "title": "Planning Mode in Action",
+      "description": "## See the Calculator Context! 📊\n\nPlanning Mode analyzes this Calculator class to understand:\n\n- **Current structure**: Methods, properties, dependencies\n- **Existing patterns**: How operations are implemented\n- **Integration points**: Where new features should be added\n- **Testing needs**: What tests are required\n\nThis context awareness makes the generated plans highly accurate and actionable!",
+      "line": 1
+    },
+    {
+      "file": "instructions/4. Core ChatModes.md",
+      "title": "Validate Your Planning Results",
+      "description": "## Quality Check Your Plans ✅\n\nAfter generating plans, verify they include:\n\n- ✅ **Clear Overview**: Concise feature description\n- ✅ **Detailed Requirements**: Functional and non-functional needs\n- ✅ **Step-by-Step Implementation**: Actionable development steps\n- ✅ **Testing Strategy**: Unit, integration, and validation tests\n- ✅ **Dependencies**: Affected files and components\n\nGreat plans lead to successful implementations!",
+      "line": 140
+    },
+    {
+      "title": "ChatModes Workshop Complete!",
+      "description": "## 🎉 Excellent Achievement!\n\nYou've successfully completed the Core ChatModes workshop!\n\n**What you've accomplished:**\n- ✅ **Understood** Planning Mode's specialized tools and capabilities\n- ✅ **Created** a custom planner chat mode with advanced tools\n- ✅ **Generated** implementation plans for new features\n- ✅ **Learned** to validate plan quality and completeness\n- ✅ **Experienced** codebase-aware planning assistance\n\n**Your Planning Mode now:**\n- Analyzes your entire project structure\n- Uses specialized tools for deep code understanding\n- Generates structured implementation roadmaps\n- Helps you think before coding with comprehensive analysis\n\n**Planning Mode Benefits:**\n- **Think before coding** with structured analysis\n- **Identify dependencies** and potential issues early\n- **Create comprehensive test strategies**\n- **Document approaches** for team collaboration\n\n**Next Steps:**\n- **Start with planning** before implementing significant features\n- **Use plans as documentation** for code reviews\n- **Iterate on plans** based on feedback before coding\n- **Reference plans** during implementation to stay on track\n\n**Resources:**\n- [GitHub Copilot Chat Documentation](https://docs.github.com/en/copilot/github-copilot-chat)\n- [VS Code Copilot Chat Extension](https://marketplace.visualstudio.com/items?itemName=GitHub.copilot-chat)\n- [Software Architecture Planning Best Practices](https://martinfowler.com/architecture/)\n\n## 🚀 Workshop Complete!\n\nCongratulations! You've now mastered all three advanced GitHub Copilot features:\n\n1. **✅ Instructions** - Custom AI guidelines for your workspace\n2. **✅ Prompts** - Structured agent creation and validation\n3. **✅ ChatModes** - Specialized planning and analysis modes\n\nYou're now equipped with advanced Copilot skills for professional development! 🎯"
     }
   ],
   "ref": "main"

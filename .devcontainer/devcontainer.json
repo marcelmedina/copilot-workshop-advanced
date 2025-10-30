@@ -1,0 +1,23 @@
+{
+	"name": "GitHub Copilot Advanced Workshop",
+	"image": "mcr.microsoft.com/devcontainers/universal:2",
+	"features": {},
+	"customizations": {
+		"vscode": {
+			"extensions": [
+				"GitHub.copilot",
+				"GitHub.copilot-chat",
+				"vsls-contrib.codetour"
+			],
+			"settings": {
+				"github.copilot.enable": {
+					"*": true,
+					"plaintext": true,
+					"markdown": true
+				}
+			}
+		}
+	},
+	"forwardPorts": [],
+	"postCreateCommand": "echo 'Welcome to the GitHub Copilot Advanced Workshop! Start with the CodeTour to begin learning about Instructions, Prompts, and Chat Modes.'"
+}

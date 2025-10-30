@@ -1,0 +1,69 @@
+{
+  "$schema": "https://aka.ms/codetour-schema",
+  "title": "GitHub Copilot Advanced Workshop",
+  "steps": [
+    {
+      "title": "Welcome to Advanced Copilot Workshop",
+      "description": "## Welcome! 🚀\n\nIn this tour you'll learn advanced GitHub Copilot features including:\n\n- **Instructions**: Custom AI guidelines for your workspace\n- **Prompts**: Structured prompting techniques  \n- **Chat Modes**: Advanced chat interactions\n\nLet's start by exploring Copilot Instructions!"
+    },
+    {
+      "file": "instructions/2. Core Instructions.md",
+      "title": "What are Copilot Instructions?",
+      "description": "## Copilot Instructions Overview\n\nCopilot Instructions are markdown files that contain guidelines, coding standards, and preferences that GitHub Copilot uses when generating code suggestions.\n\n**Key Benefits:**\n- Ensure consistent code quality\n- Enforce project-specific requirements\n- Customize AI behavior for your codebase\n\nRead through this section to understand the fundamentals.",
+      "line": 7
+    },
+    {
+      "file": "instructions/2. Core Instructions.md",
+      "title": "Understanding the Structure",
+      "description": "## File Structure Components\n\nCopilot Instructions files have three key parts:\n\n1. **Frontmatter** - YAML metadata (description, file patterns)\n2. **Structured sections** - Organized guidelines by topic\n3. **Clear rules** - Specific, actionable instructions\n\nThis structure helps Copilot understand and apply your preferences effectively.",
+      "line": 12
+    },
+    {
+      "file": "instructions/2. Core Instructions.md",
+      "title": "Create the Directory Structure",
+      "description": "## Setting Up Your Instructions\n\n**Action Required:** Follow the commands shown here to create the proper directory structure.\n\n**For this workshop:** Create the `.github/instructions` directory.\n\n📝 **Note:** GitHub Copilot looks for instructions in `.github/instructions/` by default.",
+      "line": 23
+    },
+    {
+      "file": "instructions/2. Core Instructions.md",
+      "title": "Create Your Instructions File",
+      "description": "## Hands-On Exercise! 🔧\n\n**Let's create your first instructions file:**\n\n1. Right-click in the `.github/instructions` folder\n2. Select \"New File\"\n3. Name it `csharp.instructions.md`\n4. Copy the template content shown in this section\n\n**Try it now** - this will be your working instructions file for the calculator project!",
+      "line": 35
+    },
+    {
+      "file": "instructions/2. Core Instructions.md",
+      "title": "The Template Content",
+      "description": "## Copy This Template\n\nThis is the enhanced template you should copy into your `csharp.instructions.md` file.\n\n**Important sections:**\n- **Frontmatter**: `applyTo: '**/*.cs'` targets all C# files\n- **C# Instructions**: Latest C# version preferences and commenting\n- **General Instructions**: Code quality and documentation guidelines\n- **Documentation**: File headers and XML comments\n\nAfter copying, save the file and continue to the next step.",
+      "line": 54
+    },
+    {
+      "file": "instructions/2. Core Instructions.md",
+      "title": "Understand the Frontmatter",
+      "description": "## YAML Frontmatter Explained\n\nThe frontmatter at the top of your instructions file is crucial:\n\n```yaml\n---\ndescription: 'Guidelines for building C# applications'\napplyTo: '**/*.cs'\n---\n```\n\n- **description**: Brief explanation of the instructions\n- **applyTo**: File pattern that determines scope\n\nThis tells Copilot which files these instructions should influence.",
+      "line": 79
+    },
+    {
+      "file": "instructions/2. Core Instructions.md",
+      "title": "Calculator Project Customization",
+      "description": "## Project-Specific Guidelines\n\nThis section shows how to add calculator-specific testing instructions.\n\n**Testing Guidelines include:**\n- Test all arithmetic operations\n- Test edge cases (division by zero)\n- Verify proper exception handling\n- Use meaningful test method names\n\nThese guidelines help Copilot understand the specific testing context of your calculator project.",
+      "line": 89
+    },
+    {
+      "file": "instructions/2. Core Instructions.md",
+      "title": "Testing Your Instructions",
+      "description": "## Verify Everything Works! ✅\n\n**Action Time:**\n\n1. **Restart VS Code** (important for loading new instructions)\n2. Open a C# file in the `dotnet-console` project\n3. Try the suggested Copilot Chat prompts from the Testing Examples section\n4. **Observe** how Copilot follows your guidelines\n\n**Expected result:** Copilot should generate code that includes:\n- Proper documentation\n- Error handling\n- C# best practices\n- Meaningful test names",
+      "line": 99
+    },
+    {
+      "file": "dotnet-console/CalculatorApp/Program.cs",
+      "title": "Test Instructions in Action",
+      "description": "## See Instructions at Work! 🎯\n\nNow let's test your instructions with the calculator project:\n\n**Try these Copilot Chat commands:**\n- \"Write a unit test for the Add method\"\n- \"Create error handling for division by zero\"\n- \"Add documentation to the Calculator class\"\n- \"Write XML documentation for calculator methods\"\n- \"Suggest improvements following C# best practices\"\n\n**What to notice:**\n- Copilot uses latest C# features\n- Documentation includes XML comments\n- Error handling is comprehensive\n- Test methods have descriptive names\n\n**Congratulations!** You've successfully created and applied Copilot Instructions! 🎉",
+      "line": 1
+    },
+    {
+      "title": "Workshop Complete!",
+      "description": "## 🎉 Congratulations!\n\nYou've successfully completed the Core Instructions workshop!\n\n**What you've accomplished:**\n- ✅ **Learned** what Copilot Instructions are and their benefits\n- ✅ **Created** a C# instructions file with proper structure\n- ✅ **Understood** how frontmatter and file patterns work\n- ✅ **Applied** instructions to your calculator project\n- ✅ **Tested** that your instructions work with Copilot\n\n**Your instructions now include:**\n- C# 13 feature usage\n- Documentation requirements\n- Error handling guidelines\n- Testing best practices\n\n**Next Steps:**\n- **Experiment** with different instruction styles\n- **Create** project-specific instruction files\n- **Share** instruction files with your team\n- **Explore** other templates in the awesome-copilot repository\n\n**Resources:**\n- [GitHub Copilot Documentation](https://docs.github.com/en/copilot)\n- [Awesome Copilot Repository](https://github.com/github/awesome-copilot)\n\nGreat job! 🚀"
+    }
+  ],
+  "ref": "main"
+}

@@ -55,7 +55,7 @@
       "line": 1
     },
     {
-      "title": "Workshop Complete!",
+      "title": "Instructions Workshop Complete!",
       "description": "## 🎉 Congratulations!\n\nYou've successfully completed the Core Instructions workshop!\n\n**What you've accomplished:**\n- ✅ **Learned** what Copilot Instructions are and their benefits\n- ✅ **Created** a C# instructions file with proper structure\n- ✅ **Understood** how frontmatter and file patterns work\n- ✅ **Applied** instructions to your calculator project\n- ✅ **Tested** that your instructions work with Copilot\n\n**Your instructions now include:**\n- C# 13 feature usage\n- Documentation requirements\n- Error handling guidelines\n- Testing best practices\n\n**Next Steps:**\n- **Experiment** with different instruction styles\n- **Create** project-specific instruction files\n- **Share** instruction files with your team\n- **Explore** other templates in the awesome-copilot repository\n\n**Resources:**\n- [GitHub Copilot Documentation](https://docs.github.com/en/copilot)\n- [Awesome Copilot Repository](https://github.com/github/awesome-copilot)\n\nGreat job! 🚀"
     }
   ],

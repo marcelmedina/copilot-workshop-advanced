@@ -34,8 +34,6 @@ After setting up your environment:
 ## Repository Structure
 
 ```
-├── .copilot/               # Copilot Instructions for the repository
-│   └── csharp.instructions.md
 ├── .devcontainer/          # Codespaces configuration
 ├── .tours/                 # CodeTour files for guided exercises
 ├── dotnet-console/         # Example .NET calculator project

@@ -97,20 +97,14 @@
     {
       "file": "instructions/3. Core Prompt.md",
       "title": "The Complete Prompt Template",
-      "description": "## Copy This Prompt Content\n\nThis is the complete EditorConfig Expert prompt template.\n\n**Key sections to notice:**\n- **Frontmatter**: Defines agent metadata and mode\n- **Mission**: Clear role as EditorConfig Expert\n- **Directives**: 7 specific, numbered instructions\n- **User Preferences**: Customizable indentation settings\n- **Execution**: Step-by-step process flow\n- **Examples**: Expected output formats\n\nCopy this entire template into your `editorconfig.prompt.md` file and save it.",
-      "line": 56
+      "description": "## Copy This Prompt Content\n\nThis is the complete EditorConfig Expert prompt template.\n\n**Key sections to notice:**\n- **Frontmatter**: YAML metadata defining agent title, description, and mode\n- **Mission**: Clear role definition as EditorConfig Expert with specific objectives\n- **Directives**: 8 numbered, actionable instructions covering file analysis, rule enforcement, and output formatting\n- **User Preferences**: Configurable indentation settings (spaces vs tabs, size)\n- **Execution**: Step-by-step workflow and required output structure\n- **Output Examples**: Complete code blocks showing expected .editorconfig and .csproj formats\n\nCopy this entire template into your `editorconfig.prompt.md` file and save it.",
+      "line": 66
     },
     {
       "file": "instructions/3. Core Prompt.md",
       "title": "Validate Your Prompt",
-      "description": "## Testing Your Copilot Prompt! ✅\n\n**Now let's test the prompt:**\n\n1. Type `/editorconfig` in Copilot Chat\n2. Submit the prompt command\n3. Review the output quality\n\n**What to look for:**\n- Complete .editorconfig file generation\n- Project file integration\n- Detailed rule explanations\n- Professional formatting",
+      "description": "## Testing Your Copilot Prompt! ✅\n\n**Now let's test the prompt:**\n\n1. Type `/editorconfig` in Copilot Chat\n2. Submit the prompt command\n3. Review the output quality\n\n**What to look for:**\n- Complete .editorconfig file generation\n- Project file integration\n- Detailed rule explanations",
       "line": 174
-    },
-    {
-      "file": ".editorconfig",
-      "title": "See the Generated Result",
-      "description": "## The Prompt in Action! 🎯\n\nThis is the actual `.editorconfig` file that was generated using the EditorConfig Expert prompt!\n\n**Notice how it includes:**\n- Universal settings (all files)\n- C#-specific formatting rules\n- New line preferences\n- Style enforcement settings\n- Markdown exceptions\n\n**Amazing!** The prompt created a comprehensive, production-ready configuration following all best practices! 🎉",
-      "line": 1
     },
     {
       "file": "dotnet-console/Calculator.Library/Calculator.Library.csproj",

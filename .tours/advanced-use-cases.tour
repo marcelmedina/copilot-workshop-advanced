@@ -61,25 +61,25 @@
     {
       "file": "instructions/3. Core Prompt.md",
       "title": "Welcome to Core Prompts!",
-      "description": "## Core Prompts Workshop 🎯\n\nIn this section you'll learn about GitHub Copilot Prompts - structured instructions that define how AI agents should behave.\n\n**What you'll learn:**\n- **Prompt Structure**: Components of effective prompts\n- **Mission & Directives**: Clear agent instructions\n- **Validation**: Testing prompt effectiveness\n- **Real Implementation**: See prompts in action\n\nLet's dive in!",
+      "description": "## Core Prompts Workshop 🎯\n\nIn this section you'll learn about GitHub Copilot Prompts - structured instructions that define how GitHub Copilot should behave.\n\n**What you'll learn:**\n- **Prompt Structure**: Frontmatter, Mission, Directives, User Preferences, and Execution sections\n- **Creating Effective Prompts**: How to write clear, actionable instructions\n- **Validation Techniques**: Testing prompt effectiveness\n- **Real Implementation**: See prompts in action\n\nLet's dive in!",
       "line": 1
     },
     {
       "file": "instructions/3. Core Prompt.md",
       "title": "What are Copilot Prompts?",
-      "description": "## Understanding Copilot Prompts\n\nCopilot Prompts are markdown files with frontmatter that define AI agents with specific roles, missions, and behaviors.\n\n**Key Benefits:**\n- Create consistent AI assistants\n- Follow explicit instructions\n- Produce structured outputs\n- Reliable behavior patterns\n\nThey're different from Instructions - they create specialized agents for specific tasks!",
+      "description": "## Understanding Copilot Prompts\n\nCopilot Prompts are markdown files with frontmatter that define Copilot with specific roles, missions, and behaviors.\n\n**Key Benefits:**\n- Create consistent AI assistants\n- Follow explicit instructions\n- Produce structured outputs\n- Reliable behavior patterns\n\nThey're different from Instructions - they create specialized Copilot agents for specific tasks!",
       "line": 7
     },
     {
       "file": "instructions/3. Core Prompt.md",
       "title": "Understanding Prompt Structure",
-      "description": "## The Five Key Components\n\nA well-crafted Copilot Prompt includes:\n\n1. **Frontmatter** - YAML metadata (title, description, mode)\n2. **Mission** - Clear agent role and purpose\n3. **Directives** - Explicit, actionable instructions\n4. **User Preferences** - Configurable options\n5. **Execution** - Step-by-step guidance and examples\n\nThis structure ensures consistent, reliable AI behavior.",
+      "description": "## The Two Key Components\n\nA well-crafted Copilot Prompt includes:\n\n1. **Frontmatter** - YAML metadata (title, description, mode)\n2. **Prompt Content** - The main body containing:\n   - Mission (clear role and purpose)\n   - Directives (explicit, actionable instructions)\n   - User Preferences (configurable options)\n   - Execution (step-by-step guidance and examples)\n\nThis structure ensures consistent, reliable behavior.",
       "line": 12
     },
     {
       "file": "instructions/3. Core Prompt.md",
       "title": "Create Your First Prompt",
-      "description": "## EditorConfig Expert Example\n\nWe'll create an EditorConfig Expert prompt to demonstrate the complete structure.\n\n**This agent will:**\n- Analyze project structure\n- Generate comprehensive .editorconfig files\n- Integrate with build processes\n- Provide detailed explanations\n\nA perfect example of a specialized AI agent!",
+      "description": "## EditorConfig Expert Example\n\nWe'll create an EditorConfig Expert prompt to demonstrate the complete structure.\n\n**This agent will:**\n- Analyze project structure\n- Generate comprehensive .editorconfig files\n- Integrate with build processes\n- Provide detailed explanations\n\nA perfect example of a specialized Copilot agent!",
       "line": 20
     },
     {
@@ -91,7 +91,7 @@
     {
       "file": "instructions/3. Core Prompt.md",
       "title": "Create the Prompt File",
-      "description": "## Hands-On Exercise! 🔧\n\n**Let's create your EditorConfig prompt:**\n\n1. Right-click in the `.github/prompts` folder\n2. Select \"New File\"\n3. Name it `editorconfig.prompt.md`\n\nThis will be your first AI agent definition!",
+      "description": "## Hands-On Exercise! 🔧\n\n**Let's create your EditorConfig prompt:**\n\n1. Right-click in the `.github/prompts` folder\n2. Select \"New File\"\n3. Name it `editorconfig.prompt.md`\n\nThis will be your first prompt definition!",
       "line": 48
     },
     {
@@ -103,7 +103,7 @@
     {
       "file": "instructions/3. Core Prompt.md",
       "title": "Validate Your Prompt",
-      "description": "## Testing Your Agent! ✅\n\n**Now let's test the prompt:**\n\n1. Type `/editorconfig` in Copilot Chat\n2. Submit the prompt command\n3. Review the output quality\n\n**What to look for:**\n- Complete .editorconfig file generation\n- Project file integration\n- Detailed rule explanations\n- Professional formatting",
+      "description": "## Testing Your Copilot Prompt! ✅\n\n**Now let's test the prompt:**\n\n1. Type `/editorconfig` in Copilot Chat\n2. Submit the prompt command\n3. Review the output quality\n\n**What to look for:**\n- Complete .editorconfig file generation\n- Project file integration\n- Detailed rule explanations\n- Professional formatting",
       "line": 174
     },
     {
@@ -115,7 +115,7 @@
     {
       "file": "dotnet-console/Calculator.Library/Calculator.Library.csproj",
       "title": "Project Integration Works",
-      "description": "## Build Integration Success! 🔧\n\nThe prompt also updated project files with enforcement properties:\n\n- `EnforceCodeStyleInBuild`: Validates during build\n- `AnalysisLevel`: Uses latest analysis rules\n- `GenerateDocumentationFile`: Enables XML docs\n\nThis ensures the .editorconfig rules are enforced at build time, not just in the editor!",
+      "description": "## Build Integration Success! 🔧\n\nThe prompt also updated project files with enforcement properties:\n\n- `EnforceCodeStyleInBuild`: Validates during build\n- `AnalysisLevel`: Uses latest analysis rules\n\nThis ensures the .editorconfig rules are enforced at build time, not just in the editor!",
       "line": 8
     },
     {
